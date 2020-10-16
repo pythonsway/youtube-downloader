@@ -1,5 +1,6 @@
 from functools import partial
 from pathlib import Path
+from importlib import resources
 from threading import Event, Thread
 import tkinter as tk
 from tkinter import filedialog, scrolledtext, ttk
@@ -7,7 +8,7 @@ from tkinter import filedialog, scrolledtext, ttk
 import requests
 from PIL import Image, ImageTk
 
-from about_window import AboutWindow
+from .about_window import AboutWindow
 from utils.custom_threads import KThread
 from utils.youtube_downloader import YouTubeDownloader
 
@@ -44,7 +45,10 @@ class MainApp(ttk.Frame):
 
     def customize_window(self):
         self.master.resizable(tk.FALSE, tk.FALSE)
-        self.master.iconbitmap('assets/favicon.ico')
+        # self.master.iconbitmap('assets/favicon.ico')
+        with resources.path('assets', 'icon.png') as icon_path:
+            self._icon = tk.PhotoImage(file=icon_path)
+        self.master.iconphoto(True, self._icon)
         self.master.title('YouTube Downloader')
         self.master.columnconfigure(0, weight=1)
         self.master.rowconfigure(0, weight=1)
@@ -252,7 +256,7 @@ class MainApp(ttk.Frame):
 
         # 'status bar'
         ttk.Label(self, textvariable=self.status_text, anchor=(tk.W), relief=tk.SUNKEN).grid(column=0, row=11,
-                                                                                             columnspan=5, 
+                                                                                             columnspan=5,
                                                                                              sticky=(tk.W, tk.E))
 
     def create_window_menu(self):
@@ -293,8 +297,3 @@ class MainApp(ttk.Frame):
             child.grid_configure(padx=5, pady=5)
 
         self.url_entry.focus()
-
-
-root = tk.Tk()
-app = MainApp(root)
-app.mainloop()

@@ -1,0 +1,429 @@
+49 INFO: PyInstaller: 4.0
+49 INFO: Python: 3.8.0
+49 INFO: Platform: Windows-7-6.1.7601-SP1
+79 INFO: wrote F:\my_projects\youtube-downloader\main.spec
+79 DEBUG: Testing for UPX ...
+90 INFO: UPX is not available.
+90 INFO: Removing temporary files and cleaning cache in C:\Users\py\AppData\Roaming\pyinstaller
+140 DEBUG: script: F:\my_projects\youtube-downloader\main.py
+140 INFO: Extending PYTHONPATH with paths
+['F:\\my_projects', 'F:\\my_projects\\youtube-downloader']
+170 INFO: checking Analysis
+170 INFO: Building Analysis because Analysis-00.toc is non existent
+170 INFO: Initializing module dependency graph...
+170 INFO: Caching module graph hooks...
+190 INFO: Analyzing base_library.zip ...
+190 DEBUG: Collecting submodules for encodings
+240 DEBUG: collect_submodules - Found submodules: {'encodings.mac_greek', 'encodings.utf_32', 'encodings.cp852', 'encodings.cp775', 'encodings.euc_kr', 'encodings.hp_roman8', 'encodings.big5', 'encodings.iso8859_7', 'encodings.gb2312', 'encodings.iso2022_kr', 'encodings.cp1252', 'encodings.iso8859_8', 'encodings.mac_turkish', 'encodings.mac_croatian', 'encodings.idna', 'encodings.cp1026', 'encodings.mac_farsi', 'encodings.cp1255', 'encodings.ascii', 'encodings.cp866', 'encodings.kz1048', 'encodings.gb18030', 'encodings.cp1140', 'encodings.zlib_codec', 'encodings.undefined', 'encodings.mac_centeuro', 'encodings.cp950', 'encodings.quopri_codec', 'encodings.uu_codec', 'encodings.mac_romanian', 'encodings.iso2022_jp_3', 'encodings.unicode_escape', 'encodings.gbk', 'encodings.cp862', 'encodings.cp949', 'encodings.iso2022_jp_2004', 'encodings.shift_jis', 'encodings.cp1251', 'encodings.cp932', 'encodings.utf_8', 'encodings.cp1250', 'encodings.iso8859_14', 'encodings', 'encodings.cp1006', 'encodings.palmos', 'encodings.cp857', 'encodings.mac_iceland', 'encodings.cp1254', 'encodings.oem', 'encodings.charmap', 'encodings.cp858', 'encodings.iso8859_9', 'encodings.cp1258', 'encodings.utf_32_be', 'encodings.euc_jis_2004', 'encodings.shift_jis_2004', 'encodings.cp860', 'encodings.iso8859_16', 'encodings.koi8_u', 'encodings.hex_codec', 'encodings.cp865', 'encodings.cp1253', 'encodings.iso8859_13', 'encodings.bz2_codec', 'encodings.cp1125', 'encodings.cp856', 'encodings.iso8859_6', 'encodings.cp437', 'encodings.utf_8_sig', 'encodings.koi8_r', 'encodings.cp1257', 'encodings.utf_16_le', 'encodings.cp869', 'encodings.cp273', 'encodings.iso8859_15', 'encodings.cp737', 'encodings.johab', 'encodings.utf_16', 'encodings.iso2022_jp_ext', 'encodings.iso8859_3', 'encodings.mac_latin2', 'encodings.cp855', 'encodings.cp424', 'encodings.euc_jisx0213', 'encodings.mbcs', 'encodings.cp037', 'encodings.iso8859_4', 'encodings.cp874', 'encodings.shift_jisx0213', 'encodings.punycode', 'encodings.cp875', 'encodings.hz', 'encodings.euc_jp', 'encodings.koi8_t', 'encodings.cp720', 'encodings.iso8859_11', 'encodings.mac_cyrillic', 'encodings.cp863', 'encodings.rot_13', 'encodings.utf_32_le', 'encodings.iso8859_1', 'encodings.tis_620', 'encodings.cp500', 'encodings.base64_codec', 'encodings.cp861', 'encodings.iso8859_10', 'encodings.iso2022_jp_2', 'encodings.iso8859_5', 'encodings.iso2022_jp', 'encodings.ptcp154', 'encodings.iso8859_2', 'encodings.iso2022_jp_1', 'encodings.mac_arabic', 'encodings.raw_unicode_escape', 'encodings.utf_16_be', 'encodings.latin_1', 'encodings.cp864', 'encodings.mac_roman', 'encodings.cp850', 'encodings.cp1256', 'encodings.utf_7', 'encodings.big5hkscs', 'encodings.aliases'}
+240 DEBUG: Collecting submodules for collections
+280 DEBUG: collect_submodules - Found submodules: {'collections', 'collections.abc'}
+3570 INFO: Caching module dependency graph...
+3620 DEBUG: Adding python files to base_library.zip
+3650 INFO: running Analysis Analysis-00.toc
+3650 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\python.exe
+3660 DEBUG: Dependent assemblies of c:\users\py\appdata\local\programs\python\python38\python.exe:
+3660 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+3660 INFO: Adding Microsoft.Windows.Common-Controls to dependent assemblies of final executable
+  required by c:\users\py\appdata\local\programs\python\python38\python.exe
+3660 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+3670 DEBUG: Adding python38.dll dependency of python.exe from c:\users\py\appdata\local\programs\python\python38\python38.dll
+3670 DEBUG: Skipping KERNEL32.dll dependency of python.exe
+3670 DEBUG: Adding api-ms-win-crt-runtime-l1-1-0.dll dependency of python.exe from C:\Windows\system32\api-ms-win-crt-runtime-l1-1-0.dll
+3670 DEBUG: Adding api-ms-win-crt-stdio-l1-1-0.dll dependency of python.exe from C:\Windows\system32\api-ms-win-crt-stdio-l1-1-0.dll
+3680 DEBUG: Adding api-ms-win-crt-math-l1-1-0.dll dependency of python.exe from C:\Windows\system32\api-ms-win-crt-math-l1-1-0.dll
+3680 DEBUG: Adding VCRUNTIME140.dll dependency of python.exe from c:\users\py\appdata\local\programs\python\python38\VCRUNTIME140.dll
+3680 DEBUG: Adding api-ms-win-crt-heap-l1-1-0.dll dependency of python.exe from C:\Windows\system32\api-ms-win-crt-heap-l1-1-0.dll
+3680 DEBUG: Adding api-ms-win-crt-locale-l1-1-0.dll dependency of python.exe from C:\Windows\system32\api-ms-win-crt-locale-l1-1-0.dll
+3680 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\python38.dll
+3680 DEBUG: Dependent assemblies of c:\users\py\appdata\local\programs\python\python38\python38.dll:
+3680 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+3680 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+3700 DEBUG: Skipping SHLWAPI.dll dependency of python38.dll
+3700 DEBUG: Adding api-ms-win-crt-environment-l1-1-0.dll dependency of python38.dll from C:\Windows\system32\api-ms-win-crt-environment-l1-1-0.dll
+3700 DEBUG: Skipping KERNEL32.dll dependency of python38.dll
+3700 DEBUG: Skipping WS2_32.dll dependency of python38.dll
+3710 DEBUG: Adding api-ms-win-crt-convert-l1-1-0.dll dependency of python38.dll from C:\Windows\system32\api-ms-win-crt-convert-l1-1-0.dll
+3710 DEBUG: Adding api-ms-win-crt-time-l1-1-0.dll dependency of python38.dll from C:\Windows\system32\api-ms-win-crt-time-l1-1-0.dll
+3710 DEBUG: Skipping ADVAPI32.dll dependency of python38.dll
+3720 DEBUG: Adding api-ms-win-crt-filesystem-l1-1-0.dll dependency of python38.dll from C:\Windows\system32\api-ms-win-crt-filesystem-l1-1-0.dll
+3720 DEBUG: Adding api-ms-win-crt-conio-l1-1-0.dll dependency of python38.dll from C:\Windows\system32\api-ms-win-crt-conio-l1-1-0.dll
+3720 DEBUG: Adding api-ms-win-crt-process-l1-1-0.dll dependency of python38.dll from C:\Windows\system32\api-ms-win-crt-process-l1-1-0.dll
+3720 DEBUG: Skipping VERSION.dll dependency of python38.dll
+3720 DEBUG: Adding api-ms-win-crt-string-l1-1-0.dll dependency of python38.dll from C:\Windows\system32\api-ms-win-crt-string-l1-1-0.dll
+3720 DEBUG: Analyzing C:\Windows\system32\api-ms-win-crt-runtime-l1-1-0.dll
+3730 DEBUG: Adding ucrtbase.dll dependency of api-ms-win-crt-runtime-l1-1-0.dll from C:\Windows\system32\ucrtbase.dll
+3730 DEBUG: Analyzing C:\Windows\system32\api-ms-win-crt-stdio-l1-1-0.dll
+3740 DEBUG: Analyzing C:\Windows\system32\api-ms-win-crt-math-l1-1-0.dll
+3750 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\VCRUNTIME140.dll
+3750 DEBUG: Skipping KERNEL32.dll dependency of VCRUNTIME140.dll
+3760 DEBUG: Analyzing C:\Windows\system32\api-ms-win-crt-heap-l1-1-0.dll
+3760 DEBUG: Analyzing C:\Windows\system32\api-ms-win-crt-locale-l1-1-0.dll
+3760 DEBUG: Analyzing C:\Windows\system32\api-ms-win-crt-environment-l1-1-0.dll
+3770 DEBUG: Analyzing C:\Windows\system32\api-ms-win-crt-convert-l1-1-0.dll
+3770 DEBUG: Analyzing C:\Windows\system32\api-ms-win-crt-time-l1-1-0.dll
+3780 DEBUG: Analyzing C:\Windows\system32\api-ms-win-crt-filesystem-l1-1-0.dll
+3780 DEBUG: Analyzing C:\Windows\system32\api-ms-win-crt-conio-l1-1-0.dll
+3790 DEBUG: Analyzing C:\Windows\system32\api-ms-win-crt-process-l1-1-0.dll
+3790 DEBUG: Analyzing C:\Windows\system32\api-ms-win-crt-string-l1-1-0.dll
+3800 DEBUG: Analyzing C:\Windows\system32\ucrtbase.dll
+3810 DEBUG: Adding api-ms-win-core-timezone-l1-1-0.dll dependency of ucrtbase.dll from C:\Windows\system32\api-ms-win-core-timezone-l1-1-0.dll
+3820 DEBUG: Adding api-ms-win-core-processthreads-l1-1-1.dll dependency of ucrtbase.dll from C:\Windows\system32\api-ms-win-core-processthreads-l1-1-1.dll
+3820 DEBUG: Adding api-ms-win-core-synch-l1-1-0.dll dependency of ucrtbase.dll from C:\Windows\system32\api-ms-win-core-synch-l1-1-0.dll
+3820 DEBUG: Adding api-ms-win-core-debug-l1-1-0.dll dependency of ucrtbase.dll from C:\Windows\system32\api-ms-win-core-debug-l1-1-0.dll
+3820 DEBUG: Adding api-ms-win-core-processenvironment-l1-1-0.dll dependency of ucrtbase.dll from C:\Windows\system32\api-ms-win-core-processenvironment-l1-1-0.dll
+3820 DEBUG: Adding api-ms-win-core-handle-l1-1-0.dll dependency of ucrtbase.dll from C:\Windows\system32\api-ms-win-core-handle-l1-1-0.dll
+3820 DEBUG: Adding api-ms-win-core-processthreads-l1-1-0.dll dependency of ucrtbase.dll from C:\Windows\system32\api-ms-win-core-processthreads-l1-1-0.dll
+3820 DEBUG: Adding api-ms-win-core-console-l1-1-0.dll dependency of ucrtbase.dll from C:\Windows\system32\api-ms-win-core-console-l1-1-0.dll
+3830 DEBUG: Adding api-ms-win-core-string-l1-1-0.dll dependency of ucrtbase.dll from C:\Windows\system32\api-ms-win-core-string-l1-1-0.dll
+3830 DEBUG: Adding api-ms-win-core-file-l1-2-0.dll dependency of ucrtbase.dll from C:\Windows\system32\api-ms-win-core-file-l1-2-0.dll
+3830 DEBUG: Adding api-ms-win-core-sysinfo-l1-1-0.dll dependency of ucrtbase.dll from C:\Windows\system32\api-ms-win-core-sysinfo-l1-1-0.dll
+3830 DEBUG: Adding api-ms-win-core-synch-l1-2-0.dll dependency of ucrtbase.dll from C:\Windows\system32\api-ms-win-core-synch-l1-2-0.dll
+3830 DEBUG: Adding api-ms-win-core-errorhandling-l1-1-0.dll dependency of ucrtbase.dll from C:\Windows\system32\api-ms-win-core-errorhandling-l1-1-0.dll
+3830 DEBUG: Adding api-ms-win-core-file-l1-1-0.dll dependency of ucrtbase.dll from C:\Windows\system32\api-ms-win-core-file-l1-1-0.dll
+3830 DEBUG: Adding api-ms-win-core-util-l1-1-0.dll dependency of ucrtbase.dll from C:\Windows\system32\api-ms-win-core-util-l1-1-0.dll
+3840 DEBUG: Adding api-ms-win-core-profile-l1-1-0.dll dependency of ucrtbase.dll from C:\Windows\system32\api-ms-win-core-profile-l1-1-0.dll
+3840 DEBUG: Adding api-ms-win-core-namedpipe-l1-1-0.dll dependency of ucrtbase.dll from C:\Windows\system32\api-ms-win-core-namedpipe-l1-1-0.dll
+3840 DEBUG: Adding api-ms-win-core-file-l2-1-0.dll dependency of ucrtbase.dll from C:\Windows\system32\api-ms-win-core-file-l2-1-0.dll
+3840 DEBUG: Adding api-ms-win-core-datetime-l1-1-0.dll dependency of ucrtbase.dll from C:\Windows\system32\api-ms-win-core-datetime-l1-1-0.dll
+3840 DEBUG: Adding api-ms-win-core-rtlsupport-l1-1-0.dll dependency of ucrtbase.dll from C:\Windows\system32\api-ms-win-core-rtlsupport-l1-1-0.dll
+3840 DEBUG: Adding api-ms-win-core-heap-l1-1-0.dll dependency of ucrtbase.dll from C:\Windows\system32\api-ms-win-core-heap-l1-1-0.dll
+3840 DEBUG: Adding api-ms-win-core-interlocked-l1-1-0.dll dependency of ucrtbase.dll from C:\Windows\system32\api-ms-win-core-interlocked-l1-1-0.dll
+3850 DEBUG: Adding api-ms-win-core-localization-l1-2-0.dll dependency of ucrtbase.dll from C:\Windows\system32\api-ms-win-core-localization-l1-2-0.dll
+3870 DEBUG: Adding api-ms-win-core-memory-l1-1-0.dll dependency of ucrtbase.dll from C:\Windows\system32\api-ms-win-core-memory-l1-1-0.dll
+3870 DEBUG: Adding api-ms-win-core-libraryloader-l1-1-0.dll dependency of ucrtbase.dll from C:\Windows\system32\api-ms-win-core-libraryloader-l1-1-0.dll
+3870 DEBUG: Analyzing C:\Windows\system32\api-ms-win-core-timezone-l1-1-0.dll
+3870 DEBUG: Skipping kernel32.dll dependency of api-ms-win-core-timezone-l1-1-0.dll
+3870 DEBUG: Analyzing C:\Windows\system32\api-ms-win-core-processthreads-l1-1-1.dll
+3880 DEBUG: Skipping kernel32.dll dependency of api-ms-win-core-processthreads-l1-1-1.dll
+3880 DEBUG: Analyzing C:\Windows\system32\api-ms-win-core-synch-l1-1-0.dll
+3880 DEBUG: Analyzing C:\Windows\system32\api-ms-win-core-debug-l1-1-0.dll
+3880 DEBUG: Analyzing C:\Windows\system32\api-ms-win-core-processenvironment-l1-1-0.dll
+3880 DEBUG: Analyzing C:\Windows\system32\api-ms-win-core-handle-l1-1-0.dll
+3880 DEBUG: Analyzing C:\Windows\system32\api-ms-win-core-processthreads-l1-1-0.dll
+3880 DEBUG: Analyzing C:\Windows\system32\api-ms-win-core-console-l1-1-0.dll
+3880 DEBUG: Analyzing C:\Windows\system32\api-ms-win-core-string-l1-1-0.dll
+3890 DEBUG: Analyzing C:\Windows\system32\api-ms-win-core-file-l1-2-0.dll
+3890 DEBUG: Skipping kernel32.dll dependency of api-ms-win-core-file-l1-2-0.dll
+3890 DEBUG: Analyzing C:\Windows\system32\api-ms-win-core-sysinfo-l1-1-0.dll
+3890 DEBUG: Analyzing C:\Windows\system32\api-ms-win-core-synch-l1-2-0.dll
+3890 DEBUG: Skipping kernel32.dll dependency of api-ms-win-core-synch-l1-2-0.dll
+3890 DEBUG: Analyzing C:\Windows\system32\api-ms-win-core-errorhandling-l1-1-0.dll
+3890 DEBUG: Analyzing C:\Windows\system32\api-ms-win-core-file-l1-1-0.dll
+3890 DEBUG: Analyzing C:\Windows\system32\api-ms-win-core-util-l1-1-0.dll
+3900 DEBUG: Analyzing C:\Windows\system32\api-ms-win-core-profile-l1-1-0.dll
+3900 DEBUG: Analyzing C:\Windows\system32\api-ms-win-core-namedpipe-l1-1-0.dll
+3900 DEBUG: Analyzing C:\Windows\system32\api-ms-win-core-file-l2-1-0.dll
+3900 DEBUG: Skipping kernel32.dll dependency of api-ms-win-core-file-l2-1-0.dll
+3900 DEBUG: Analyzing C:\Windows\system32\api-ms-win-core-datetime-l1-1-0.dll
+3900 DEBUG: Analyzing C:\Windows\system32\api-ms-win-core-rtlsupport-l1-1-0.dll
+3900 DEBUG: Analyzing C:\Windows\system32\api-ms-win-core-heap-l1-1-0.dll
+3900 DEBUG: Analyzing C:\Windows\system32\api-ms-win-core-interlocked-l1-1-0.dll
+3900 DEBUG: Analyzing C:\Windows\system32\api-ms-win-core-localization-l1-2-0.dll
+3910 DEBUG: Skipping kernel32.dll dependency of api-ms-win-core-localization-l1-2-0.dll
+3910 DEBUG: Analyzing C:\Windows\system32\api-ms-win-core-memory-l1-1-0.dll
+3910 DEBUG: Analyzing C:\Windows\system32\api-ms-win-core-libraryloader-l1-1-0.dll
+3910 INFO: Analyzing F:\my_projects\youtube-downloader\main.py
+4204 INFO: Processing pre-safe import module hook urllib3.packages.six.moves from 'c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module\\hook-urllib3.packages.six.moves.py'.
+6192 INFO: Processing pre-find module path hook distutils from 'c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path\\hook-distutils.py'.
+6194 INFO: distutils: retargeting to non-venv dir 'c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib'
+6785 INFO: Processing pre-find module path hook site from 'c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path\\hook-site.py'.
+6785 INFO: site: retargeting to fake-dir 'c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\fake-modules'
+7670 INFO: Processing pre-safe import module hook setuptools.extern.six.moves from 'c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module\\hook-setuptools.extern.six.moves.py'.
+c:\users\py\appdata\local\programs\python\python38\lib\site-packages\moviepy\video\io\sliders.py:61: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if event.key is 'enter':
+11117 DEBUG: Hidden import 'codecs' already found
+11117 INFO: Processing module hooks...
+11117 INFO: Loading module hook 'hook-certifi.py' from 'c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks'...
+11118 DEBUG: Collecting data files for certifi
+11121 DEBUG: collect_data_files - Found files: [('c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\certifi\\cacert.pem', 'certifi')]
+11122 INFO: Loading module hook 'hook-imageio.py' from 'c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks'...
+11122 DEBUG: Collecting data files for imageio
+11127 DEBUG: collect_data_files - Found files: [('c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\imageio\\resources\\images\\chelsea.zip', 'imageio\\resources\\images'), ('c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\imageio\\resources\\images\\astronaut.png', 'imageio\\resources\\images'), ('c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\imageio\\resources\\shipped_resources_go_here', 'imageio\\resources'), ('c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\imageio\\resources\\images\\cockatoo.mp4', 'imageio\\resources\\images'), ('c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\imageio\\resources\\images\\newtonscradle.gif', 'imageio\\resources\\images'), ('c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\imageio\\resources\\images\\stent.npz', 'imageio\\resources\\images'), ('c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\imageio\\resources\\images\\chelsea.png', 'imageio\\resources\\images'), ('c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\imageio\\resources\\images\\realshort.mp4', 'imageio\\resources\\images')]
+11128 INFO: Loading module hook 'hook-imageio_ffmpeg.py' from 'c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks'...
+11133 DEBUG: Collecting data files for imageio_ffmpeg
+11134 DEBUG: collect_data_files - Found files: [('c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win64-v4.2.2.exe', 'imageio_ffmpeg\\binaries'), ('c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\imageio_ffmpeg\\binaries\\README.md', 'imageio_ffmpeg\\binaries')]
+11135 INFO: Loading module hook 'hook-distutils.py' from 'c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks'...
+11138 INFO: Loading module hook 'hook-encodings.py' from 'c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks'...
+11139 DEBUG: Collecting submodules for encodings
+11195 DEBUG: collect_submodules - Found submodules: {'encodings.mac_greek', 'encodings.utf_32', 'encodings.cp852', 'encodings.cp775', 'encodings.euc_kr', 'encodings.hp_roman8', 'encodings.big5', 'encodings.iso8859_7', 'encodings.gb2312', 'encodings.iso2022_kr', 'encodings.cp1252', 'encodings.iso8859_8', 'encodings.mac_turkish', 'encodings.mac_croatian', 'encodings.idna', 'encodings.cp1026', 'encodings.mac_farsi', 'encodings.cp1255', 'encodings.ascii', 'encodings.cp866', 'encodings.kz1048', 'encodings.gb18030', 'encodings.cp1140', 'encodings.zlib_codec', 'encodings.undefined', 'encodings.mac_centeuro', 'encodings.cp950', 'encodings.quopri_codec', 'encodings.uu_codec', 'encodings.mac_romanian', 'encodings.iso2022_jp_3', 'encodings.unicode_escape', 'encodings.gbk', 'encodings.cp862', 'encodings.cp949', 'encodings.iso2022_jp_2004', 'encodings.shift_jis', 'encodings.cp1251', 'encodings.cp932', 'encodings.utf_8', 'encodings.cp1250', 'encodings.iso8859_14', 'encodings', 'encodings.cp1006', 'encodings.palmos', 'encodings.cp857', 'encodings.mac_iceland', 'encodings.cp1254', 'encodings.oem', 'encodings.charmap', 'encodings.cp858', 'encodings.iso8859_9', 'encodings.cp1258', 'encodings.utf_32_be', 'encodings.euc_jis_2004', 'encodings.shift_jis_2004', 'encodings.cp860', 'encodings.iso8859_16', 'encodings.koi8_u', 'encodings.hex_codec', 'encodings.cp865', 'encodings.cp1253', 'encodings.iso8859_13', 'encodings.bz2_codec', 'encodings.cp1125', 'encodings.cp856', 'encodings.iso8859_6', 'encodings.cp437', 'encodings.utf_8_sig', 'encodings.koi8_r', 'encodings.cp1257', 'encodings.utf_16_le', 'encodings.cp869', 'encodings.cp273', 'encodings.iso8859_15', 'encodings.cp737', 'encodings.johab', 'encodings.utf_16', 'encodings.iso2022_jp_ext', 'encodings.iso8859_3', 'encodings.mac_latin2', 'encodings.cp855', 'encodings.cp424', 'encodings.euc_jisx0213', 'encodings.mbcs', 'encodings.cp037', 'encodings.iso8859_4', 'encodings.cp874', 'encodings.shift_jisx0213', 'encodings.punycode', 'encodings.cp875', 'encodings.hz', 'encodings.euc_jp', 'encodings.koi8_t', 'encodings.cp720', 'encodings.iso8859_11', 'encodings.mac_cyrillic', 'encodings.cp863', 'encodings.rot_13', 'encodings.utf_32_le', 'encodings.iso8859_1', 'encodings.tis_620', 'encodings.cp500', 'encodings.base64_codec', 'encodings.cp861', 'encodings.iso8859_10', 'encodings.iso2022_jp_2', 'encodings.iso8859_5', 'encodings.iso2022_jp', 'encodings.ptcp154', 'encodings.iso8859_2', 'encodings.iso2022_jp_1', 'encodings.mac_arabic', 'encodings.raw_unicode_escape', 'encodings.utf_16_be', 'encodings.latin_1', 'encodings.cp864', 'encodings.mac_roman', 'encodings.cp850', 'encodings.cp1256', 'encodings.utf_7', 'encodings.big5hkscs', 'encodings.aliases'}
+11200 INFO: Loading module hook 'hook-lib2to3.py' from 'c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks'...
+11201 DEBUG: Collecting data files for lib2to3
+11241 DEBUG: collect_data_files - Found files: [('c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\lib2to3\\tests\\data\\README', 'lib2to3\\tests\\data'), ('c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\lib2to3\\Grammar3.8.0.final.0.pickle', 'lib2to3'), ('c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\lib2to3\\PatternGrammar3.8.0.final.0.pickle', 'lib2to3'), ('c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\lib2to3\\Grammar.txt', 'lib2to3'), ('c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\lib2to3\\PatternGrammar.txt', 'lib2to3')]
+11242 INFO: Loading module hook 'hook-numpy.core.py' from 'c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks'...
+11321 INFO: Loading module hook 'hook-numpy.py' from 'c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks'...
+11322 INFO: Loading module hook 'hook-PIL.Image.py' from 'c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks'...
+11323 DEBUG: Collecting submodules for PIL
+11376 DEBUG: collect_submodules - Found submodules: {'PIL.XVThumbImagePlugin', 'PIL.GifImagePlugin', 'PIL.PixarImagePlugin', 'PIL.TiffImagePlugin', 'PIL.McIdasImagePlugin', 'PIL.SpiderImagePlugin', 'PIL.BufrStubImagePlugin', 'PIL.GbrImagePlugin', 'PIL.ImtImagePlugin', 'PIL.XpmImagePlugin', 'PIL.DdsImagePlugin', 'PIL.PalmImagePlugin', 'PIL.CurImagePlugin', 'PIL.EpsImagePlugin', 'PIL.MpoImagePlugin', 'PIL.MicImagePlugin', 'PIL.WebPImagePlugin', 'PIL.WmfImagePlugin', 'PIL.Hdf5StubImagePlugin', 'PIL.GribStubImagePlugin', 'PIL.FtexImagePlugin', 'PIL.XbmImagePlugin', 'PIL.PngImagePlugin', 'PIL.SgiImagePlugin', 'PIL.BlpImagePlugin', 'PIL.PsdImagePlugin', 'PIL.Jpeg2KImagePlugin', 'PIL.PcdImagePlugin', 'PIL.FpxImagePlugin', 'PIL.TgaImagePlugin', 'PIL.PcxImagePlugin', 'PIL.IptcImagePlugin', 'PIL.FitsStubImagePlugin', 'PIL.MpegImagePlugin', 'PIL', 'PIL.PdfImagePlugin', 'PIL.BmpImagePlugin', 'PIL.SunImagePlugin', 'PIL.JpegImagePlugin', 'PIL.FliImagePlugin', 'PIL.PpmImagePlugin', 'PIL.MspImagePlugin', 'PIL.IcoImagePlugin', 'PIL.DcxImagePlugin', 'PIL.ImImagePlugin', 'PIL.IcnsImagePlugin'}
+11628 INFO: Loading module hook 'hook-PIL.py' from 'c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks'...
+11630 INFO: Import to be excluded not found: 'PyQt4'
+11630 INFO: Excluding import 'PyQt5'
+11631 INFO:   Removing import of PyQt5 from module PIL.ImageQt
+11632 INFO: Excluding import 'tkinter'
+11633 INFO:   Removing import of tkinter from module PIL.ImageTk
+11634 INFO: Import to be excluded not found: 'FixTk'
+11634 INFO: Import to be excluded not found: 'PySide'
+11634 INFO: Loading module hook 'hook-PIL.SpiderImagePlugin.py' from 'c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks'...
+11635 INFO: Excluding import 'tkinter'
+11636 INFO: Import to be excluded not found: 'FixTk'
+11636 INFO: Loading module hook 'hook-pkg_resources.py' from 'c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks'...
+11637 DEBUG: Collecting submodules for pkg_resources._vendor
+11791 DEBUG: collect_submodules - Found submodules: {'pkg_resources._vendor.packaging.utils', 'pkg_resources._vendor.appdirs', 'pkg_resources._vendor', 'pkg_resources._vendor.packaging._structures', 'pkg_resources._vendor.packaging.specifiers', 'pkg_resources._vendor.pyparsing', 'pkg_resources._vendor.six', 'pkg_resources._vendor.packaging', 'pkg_resources._vendor.packaging.markers', 'pkg_resources._vendor.packaging.version', 'pkg_resources._vendor.packaging._compat', 'pkg_resources._vendor.packaging.__about__', 'pkg_resources._vendor.packaging.requirements'}
+11791 DEBUG: Collecting submodules for packaging
+11791 DEBUG: collect_submodules - Module packaging is not a package.
+11823 INFO: Processing pre-safe import module hook win32com from 'c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\pre_safe_import_module\\hook-win32com.py'.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+ModuleNotFoundError: No module named 'win32com'
+11853 INFO: Processing pre-safe import module hook win32com from 'c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\pre_safe_import_module\\hook-win32com.py'.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+ModuleNotFoundError: No module named 'win32com'
+12059 WARNING: Hidden import "pkg_resources.py2_warn" not found!
+12059 WARNING: Hidden import "pkg_resources.markers" not found!
+12060 INFO: Excluding import '__main__'
+12061 INFO:   Removing import of __main__ from module pkg_resources
+12062 INFO: Loading module hook 'hook-setuptools.py' from 'c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks'...
+12063 DEBUG: Collecting submodules for setuptools._vendor
+12257 DEBUG: collect_submodules - Found submodules: {'setuptools._vendor.packaging.version', 'setuptools._vendor.packaging', 'setuptools._vendor.packaging.__about__', 'setuptools._vendor.packaging.markers', 'setuptools._vendor.six', 'setuptools._vendor.packaging.requirements', 'setuptools._vendor.pyparsing', 'setuptools._vendor', 'setuptools._vendor.packaging.utils', 'setuptools._vendor.packaging.specifiers', 'setuptools._vendor.packaging._compat', 'setuptools._vendor.packaging._structures'}
+12477 INFO: Loading module hook 'hook-sysconfig.py' from 'c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks'...
+12480 INFO: Loading module hook 'hook-xml.dom.domreg.py' from 'c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks'...
+12481 INFO: Loading module hook 'hook-xml.etree.cElementTree.py' from 'c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks'...
+12481 INFO: Loading module hook 'hook-xml.py' from 'c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks'...
+12482 INFO: Loading module hook 'hook-_tkinter.py' from 'c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks'...
+12487 DEBUG: Skipping KERNEL32.dll dependency of _tkinter.pyd
+12489 DEBUG: Adding tcl86t.dll dependency of _tkinter.pyd from c:\users\py\appdata\local\programs\python\python38\DLLs\tcl86t.dll
+12492 DEBUG: Adding tk86t.dll dependency of _tkinter.pyd from c:\users\py\appdata\local\programs\python\python38\DLLs\tk86t.dll
+12583 INFO: checking Tree
+12583 INFO: Building Tree because Tree-00.toc is non existent
+12583 INFO: Building Tree Tree-00.toc
+12745 INFO: checking Tree
+12745 INFO: Building Tree because Tree-01.toc is non existent
+12745 INFO: Building Tree Tree-01.toc
+12812 DEBUG: Looking for egg data files...
+12812 INFO: Looking for ctypes DLLs
+12812 DEBUG: Scanning multiprocessing.sharedctypes for shared libraries or dlls
+12814 DEBUG: Scanning numpy._distributor_init for shared libraries or dlls
+12815 DEBUG: Scanning numpy.core._dtype_ctypes for shared libraries or dlls
+12816 DEBUG: Scanning numpy.core._internal for shared libraries or dlls
+12822 DEBUG: Scanning PyInstaller.depend.utils for shared libraries or dlls
+12826 DEBUG: Scanning setuptools.windows_support for shared libraries or dlls
+12827 DEBUG: Scanning setuptools.glibc for shared libraries or dlls
+12828 DEBUG: Scanning numpy.distutils._shell_utils for shared libraries or dlls
+12829 DEBUG: Scanning numpy.ctypeslib for shared libraries or dlls
+12832 DEBUG: Scanning imageio.core.findlib for shared libraries or dlls
+12834 DEBUG: Scanning imageio.plugins._freeimage for shared libraries or dlls
+12845 DEBUG: Scanning colorama.win32 for shared libraries or dlls
+12848 DEBUG: Scanning tqdm.utils for shared libraries or dlls
+12852 DEBUG: Scanning pkg_resources._vendor.appdirs for shared libraries or dlls
+12856 DEBUG: Scanning uuid for shared libraries or dlls
+12864 INFO: Analyzing run-time hooks ...
+12870 INFO: Including run-time hook 'c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py'
+12874 INFO: Including run-time hook 'c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py'
+12877 INFO: Including run-time hook 'c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\rthooks\\pyi_rth_certifi.py'
+12879 INFO: Including run-time hook 'c:\\users\\py\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py'
+12894 INFO: Looking for dynamic libraries
+12897 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\lib\site-packages\numpy\.libs\libopenblas.NOIJJG62EMASZI6NYURL6JBKM4EVBGM7.gfortran-win_amd64.dll
+12950 DEBUG: Skipping msvcrt.dll dependency of libopenblas.NOIJJG62EMASZI6NYURL6JBKM4EVBGM7.gfortran-win_amd64.dll
+12952 DEBUG: Skipping USER32.dll dependency of libopenblas.NOIJJG62EMASZI6NYURL6JBKM4EVBGM7.gfortran-win_amd64.dll
+12953 DEBUG: Skipping KERNEL32.dll dependency of libopenblas.NOIJJG62EMASZI6NYURL6JBKM4EVBGM7.gfortran-win_amd64.dll
+12953 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\DLLs\select.pyd
+12954 DEBUG: Dependent assemblies of c:\users\py\appdata\local\programs\python\python38\DLLs\select.pyd:
+12954 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+12954 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+12958 DEBUG: Skipping KERNEL32.dll dependency of select.pyd
+12961 DEBUG: Skipping WS2_32.dll dependency of select.pyd
+12961 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\DLLs\unicodedata.pyd
+12963 DEBUG: Dependent assemblies of c:\users\py\appdata\local\programs\python\python38\DLLs\unicodedata.pyd:
+12963 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+12963 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+12970 DEBUG: Skipping KERNEL32.dll dependency of unicodedata.pyd
+12970 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\DLLs\_socket.pyd
+12970 DEBUG: Dependent assemblies of c:\users\py\appdata\local\programs\python\python38\DLLs\_socket.pyd:
+12971 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+12971 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+12975 DEBUG: Skipping KERNEL32.dll dependency of _socket.pyd
+12976 DEBUG: Skipping WS2_32.dll dependency of _socket.pyd
+12979 DEBUG: Skipping IPHLPAPI.DLL dependency of _socket.pyd
+12979 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\DLLs\_overlapped.pyd
+12980 DEBUG: Dependent assemblies of c:\users\py\appdata\local\programs\python\python38\DLLs\_overlapped.pyd:
+12981 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+12981 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+12984 DEBUG: Skipping KERNEL32.dll dependency of _overlapped.pyd
+12986 DEBUG: Skipping WS2_32.dll dependency of _overlapped.pyd
+12986 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\DLLs\_ssl.pyd
+12987 DEBUG: Dependent assemblies of c:\users\py\appdata\local\programs\python\python38\DLLs\_ssl.pyd:
+12987 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+12987 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+12991 DEBUG: Skipping KERNEL32.dll dependency of _ssl.pyd
+12993 DEBUG: Adding libssl-1_1.dll dependency of _ssl.pyd from c:\users\py\appdata\local\programs\python\python38\DLLs\libssl-1_1.dll
+12996 DEBUG: Adding libcrypto-1_1.dll dependency of _ssl.pyd from c:\users\py\appdata\local\programs\python\python38\DLLs\libcrypto-1_1.dll
+12998 DEBUG: Skipping WS2_32.dll dependency of _ssl.pyd
+12999 DEBUG: Skipping CRYPT32.dll dependency of _ssl.pyd
+12999 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\DLLs\_asyncio.pyd
+13001 DEBUG: Dependent assemblies of c:\users\py\appdata\local\programs\python\python38\DLLs\_asyncio.pyd:
+13001 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+13001 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+13004 DEBUG: Skipping KERNEL32.dll dependency of _asyncio.pyd
+13004 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\DLLs\_queue.pyd
+13005 DEBUG: Dependent assemblies of c:\users\py\appdata\local\programs\python\python38\DLLs\_queue.pyd:
+13005 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+13005 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+13009 DEBUG: Skipping KERNEL32.dll dependency of _queue.pyd
+13009 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\DLLs\_ctypes.pyd
+13009 DEBUG: Dependent assemblies of c:\users\py\appdata\local\programs\python\python38\DLLs\_ctypes.pyd:
+13010 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+13010 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+13015 DEBUG: Skipping KERNEL32.dll dependency of _ctypes.pyd
+13016 DEBUG: Adding libffi-7.dll dependency of _ctypes.pyd from c:\users\py\appdata\local\programs\python\python38\DLLs\libffi-7.dll
+13018 DEBUG: Skipping ole32.dll dependency of _ctypes.pyd
+13020 DEBUG: Skipping OLEAUT32.dll dependency of _ctypes.pyd
+13020 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\DLLs\_multiprocessing.pyd
+13021 DEBUG: Dependent assemblies of c:\users\py\appdata\local\programs\python\python38\DLLs\_multiprocessing.pyd:
+13021 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+13021 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+13024 DEBUG: Skipping KERNEL32.dll dependency of _multiprocessing.pyd
+13026 DEBUG: Skipping WS2_32.dll dependency of _multiprocessing.pyd
+13026 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\DLLs\pyexpat.pyd
+13027 DEBUG: Dependent assemblies of c:\users\py\appdata\local\programs\python\python38\DLLs\pyexpat.pyd:
+13027 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+13027 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+13032 DEBUG: Adding api-ms-win-crt-utility-l1-1-0.dll dependency of pyexpat.pyd from C:\Windows\system32\api-ms-win-crt-utility-l1-1-0.dll
+13033 DEBUG: Skipping KERNEL32.dll dependency of pyexpat.pyd
+13033 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\DLLs\_decimal.pyd
+13034 DEBUG: Dependent assemblies of c:\users\py\appdata\local\programs\python\python38\DLLs\_decimal.pyd:
+13034 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+13034 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+13038 DEBUG: Skipping KERNEL32.dll dependency of _decimal.pyd
+13038 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\DLLs\_hashlib.pyd
+13039 DEBUG: Dependent assemblies of c:\users\py\appdata\local\programs\python\python38\DLLs\_hashlib.pyd:
+13039 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+13040 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+13044 DEBUG: Skipping KERNEL32.dll dependency of _hashlib.pyd
+13047 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\DLLs\_lzma.pyd
+13047 DEBUG: Dependent assemblies of c:\users\py\appdata\local\programs\python\python38\DLLs\_lzma.pyd:
+13048 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+13048 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+13077 DEBUG: Skipping KERNEL32.dll dependency of _lzma.pyd
+13078 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\DLLs\_bz2.pyd
+13078 DEBUG: Dependent assemblies of c:\users\py\appdata\local\programs\python\python38\DLLs\_bz2.pyd:
+13079 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+13079 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+13083 DEBUG: Skipping KERNEL32.dll dependency of _bz2.pyd
+13083 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\lib\site-packages\numpy\core\_multiarray_tests.cp38-win_amd64.pyd
+13088 DEBUG: Skipping KERNEL32.dll dependency of _multiarray_tests.cp38-win_amd64.pyd
+13088 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\lib\site-packages\numpy\core\_multiarray_umath.cp38-win_amd64.pyd
+13096 DEBUG: Skipping KERNEL32.dll dependency of _multiarray_umath.cp38-win_amd64.pyd
+13097 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\lib\site-packages\numpy\linalg\lapack_lite.cp38-win_amd64.pyd
+13100 DEBUG: Skipping KERNEL32.dll dependency of lapack_lite.cp38-win_amd64.pyd
+13100 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\lib\site-packages\numpy\random\mtrand.cp38-win_amd64.pyd
+13105 DEBUG: Skipping KERNEL32.dll dependency of mtrand.cp38-win_amd64.pyd
+13105 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\lib\site-packages\numpy\random\_sfc64.cp38-win_amd64.pyd
+13109 DEBUG: Skipping KERNEL32.dll dependency of _sfc64.cp38-win_amd64.pyd
+13109 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\lib\site-packages\numpy\random\_philox.cp38-win_amd64.pyd
+13114 DEBUG: Skipping KERNEL32.dll dependency of _philox.cp38-win_amd64.pyd
+13114 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\lib\site-packages\numpy\random\_pcg64.cp38-win_amd64.pyd
+13117 DEBUG: Skipping KERNEL32.dll dependency of _pcg64.cp38-win_amd64.pyd
+13117 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\lib\site-packages\numpy\random\_mt19937.cp38-win_amd64.pyd
+13121 DEBUG: Skipping KERNEL32.dll dependency of _mt19937.cp38-win_amd64.pyd
+13121 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\lib\site-packages\numpy\random\bit_generator.cp38-win_amd64.pyd
+13125 DEBUG: Skipping KERNEL32.dll dependency of bit_generator.cp38-win_amd64.pyd
+13125 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\lib\site-packages\numpy\random\_generator.cp38-win_amd64.pyd
+13131 DEBUG: Skipping KERNEL32.dll dependency of _generator.cp38-win_amd64.pyd
+13131 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\lib\site-packages\numpy\random\_bounded_integers.cp38-win_amd64.pyd
+13137 DEBUG: Skipping KERNEL32.dll dependency of _bounded_integers.cp38-win_amd64.pyd
+13137 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\lib\site-packages\numpy\random\_common.cp38-win_amd64.pyd
+13141 DEBUG: Skipping KERNEL32.dll dependency of _common.cp38-win_amd64.pyd
+13141 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\lib\site-packages\numpy\fft\_pocketfft_internal.cp38-win_amd64.pyd
+13146 DEBUG: Skipping KERNEL32.dll dependency of _pocketfft_internal.cp38-win_amd64.pyd
+13146 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\lib\site-packages\numpy\linalg\_umath_linalg.cp38-win_amd64.pyd
+13150 DEBUG: Skipping KERNEL32.dll dependency of _umath_linalg.cp38-win_amd64.pyd
+13150 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\DLLs\_elementtree.pyd
+13151 DEBUG: Dependent assemblies of c:\users\py\appdata\local\programs\python\python38\DLLs\_elementtree.pyd:
+13151 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+13151 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+13156 DEBUG: Skipping KERNEL32.dll dependency of _elementtree.pyd
+13156 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\lib\site-packages\PIL\_imagingtk.cp38-win_amd64.pyd
+13161 DEBUG: Skipping KERNEL32.dll dependency of _imagingtk.cp38-win_amd64.pyd
+13163 DEBUG: Skipping PSAPI.DLL dependency of _imagingtk.cp38-win_amd64.pyd
+13163 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\lib\site-packages\PIL\_webp.cp38-win_amd64.pyd
+13169 DEBUG: Skipping KERNEL32.dll dependency of _webp.cp38-win_amd64.pyd
+13170 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\lib\site-packages\PIL\_imaging.cp38-win_amd64.pyd
+13177 DEBUG: Skipping GDI32.dll dependency of _imaging.cp38-win_amd64.pyd
+13180 DEBUG: Skipping KERNEL32.dll dependency of _imaging.cp38-win_amd64.pyd
+13182 DEBUG: Skipping USER32.dll dependency of _imaging.cp38-win_amd64.pyd
+13182 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\DLLs\_tkinter.pyd
+13183 DEBUG: Dependent assemblies of c:\users\py\appdata\local\programs\python\python38\DLLs\_tkinter.pyd:
+13183 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+13183 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+13186 DEBUG: Skipping KERNEL32.dll dependency of _tkinter.pyd
+13188 DEBUG: Adding tcl86t.dll dependency of _tkinter.pyd from c:\users\py\appdata\local\programs\python\python38\DLLs\tcl86t.dll
+13189 DEBUG: Adding tk86t.dll dependency of _tkinter.pyd from c:\users\py\appdata\local\programs\python\python38\DLLs\tk86t.dll
+13189 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\DLLs\libssl-1_1.dll
+13200 DEBUG: Skipping KERNEL32.dll dependency of libssl-1_1.dll
+13202 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\DLLs\libcrypto-1_1.dll
+13232 DEBUG: Skipping bcrypt.dll dependency of libcrypto-1_1.dll
+13234 DEBUG: Skipping KERNEL32.dll dependency of libcrypto-1_1.dll
+13235 DEBUG: Skipping WS2_32.dll dependency of libcrypto-1_1.dll
+13237 DEBUG: Skipping ADVAPI32.dll dependency of libcrypto-1_1.dll
+13238 DEBUG: Skipping USER32.dll dependency of libcrypto-1_1.dll
+13238 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\DLLs\libffi-7.dll
+13241 DEBUG: Skipping KERNEL32.dll dependency of libffi-7.dll
+13241 DEBUG: Analyzing C:\Windows\system32\api-ms-win-crt-utility-l1-1-0.dll
+13244 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\DLLs\tcl86t.dll
+13254 DEBUG: Skipping NETAPI32.dll dependency of tcl86t.dll
+13256 DEBUG: Skipping KERNEL32.dll dependency of tcl86t.dll
+13257 DEBUG: Skipping WS2_32.dll dependency of tcl86t.dll
+13259 DEBUG: Skipping ADVAPI32.dll dependency of tcl86t.dll
+13262 DEBUG: Skipping USERENV.dll dependency of tcl86t.dll
+13263 DEBUG: Skipping USER32.dll dependency of tcl86t.dll
+13263 DEBUG: Analyzing c:\users\py\appdata\local\programs\python\python38\DLLs\tk86t.dll
+13265 DEBUG: Dependent assemblies of c:\users\py\appdata\local\programs\python\python38\DLLs\tk86t.dll:
+13265 DEBUG: AMD64_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+13265 DEBUG: Skipping assembly AMD64_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+13273 DEBUG: Skipping GDI32.dll dependency of tk86t.dll
+13275 DEBUG: Skipping SHELL32.dll dependency of tk86t.dll
+13278 DEBUG: Skipping COMCTL32.dll dependency of tk86t.dll
+13280 DEBUG: Skipping COMDLG32.dll dependency of tk86t.dll
+13282 DEBUG: Skipping KERNEL32.dll dependency of tk86t.dll
+13283 DEBUG: Skipping ADVAPI32.dll dependency of tk86t.dll
+13285 DEBUG: Skipping ole32.dll dependency of tk86t.dll
+13287 DEBUG: Skipping IMM32.dll dependency of tk86t.dll
+13288 DEBUG: Skipping USER32.dll dependency of tk86t.dll
+13288 INFO: Looking for eggs
+13288 INFO: Using Python library c:\users\py\appdata\local\programs\python\python38\python38.dll
+13288 INFO: Found binding redirects: 
+[]
+13297 INFO: Warnings written to F:\my_projects\youtube-downloader\build\main\warn-main.txt
+13419 INFO: Graph cross-reference written to F:\my_projects\youtube-downloader\build\main\xref-main.html
+13454 INFO: Graph drawing written to F:\my_projects\youtube-downloader\build\main\graph-main.dot
+13505 INFO: checking PYZ
+13505 INFO: Building PYZ because PYZ-00.toc is non existent
+13505 INFO: Building PYZ (ZlibArchive) F:\my_projects\youtube-downloader\build\main\PYZ-00.pyz
+13505 DEBUG: Compiling namespace package utils
+14630 INFO: Building PYZ (ZlibArchive) F:\my_projects\youtube-downloader\build\main\PYZ-00.pyz completed successfully.
+14650 INFO: checking PKG
+14650 INFO: Building PKG because PKG-00.toc is non existent
+14650 INFO: Building PKG (CArchive) PKG-00.pkg
+14660 DEBUG: Compiling c:\users\py\appdata\local\programs\python\python38\lib\site-packages\PyInstaller\loader\pyiboot01_bootstrap.py
+14660 DEBUG: Compiling c:\users\py\appdata\local\programs\python\python38\lib\site-packages\PyInstaller\loader\pyiboot01_bootstrap.py
+14660 DEBUG: Compiling C:\Users\py\AppData\Local\Programs\Python\Python38\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_multiprocessing.py
+14660 DEBUG: Compiling C:\Users\py\AppData\Local\Programs\Python\Python38\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_multiprocessing.py
+14660 DEBUG: Compiling C:\Users\py\AppData\Local\Programs\Python\Python38\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_pkgres.py
+14660 DEBUG: Compiling C:\Users\py\AppData\Local\Programs\Python\Python38\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_pkgres.py
+14660 DEBUG: Compiling C:\Users\py\AppData\Local\Programs\Python\Python38\Lib\site-packages\_pyinstaller_hooks_contrib\hooks\rthooks\pyi_rth_certifi.py
+14660 DEBUG: Compiling C:\Users\py\AppData\Local\Programs\Python\Python38\Lib\site-packages\_pyinstaller_hooks_contrib\hooks\rthooks\pyi_rth_certifi.py
+14660 DEBUG: Compiling C:\Users\py\AppData\Local\Programs\Python\Python38\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth__tkinter.py
+14660 DEBUG: Compiling C:\Users\py\AppData\Local\Programs\Python\Python38\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth__tkinter.py
+14660 DEBUG: Compiling F:\my_projects\youtube-downloader\main.py
+14660 DEBUG: Compiling F:\my_projects\youtube-downloader\main.py
+14670 INFO: Building PKG (CArchive) PKG-00.pkg completed successfully.
+14670 INFO: Bootloader c:\users\py\appdata\local\programs\python\python38\lib\site-packages\PyInstaller\bootloader\Windows-64bit\run.exe
+14670 INFO: checking EXE
+14670 INFO: Building EXE because EXE-00.toc is non existent
+14670 INFO: Building EXE from EXE-00.toc
+14670 INFO: Appending archive to EXE F:\my_projects\youtube-downloader\build\main\main.exe
+14690 INFO: Building EXE from EXE-00.toc completed successfully.
+14690 INFO: checking COLLECT
+14690 INFO: Building COLLECT because COLLECT-00.toc is non existent
+14690 INFO: Building COLLECT COLLECT-00.toc
+17615 INFO: Building COLLECT COLLECT-00.toc completed successfully.

@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import scrolledtext, ttk
 
+from . import __version__
 
 class LicenseWindow(tk.Toplevel):
     def __init__(self, master):
@@ -17,7 +18,7 @@ class LicenseWindow(tk.Toplevel):
         y = int(sh)
         self.geometry(f'{ww}x{wh}+{x}+{y}')
         self.resizable(tk.FALSE, tk.FALSE)
-        self.iconbitmap('assets/favicon.ico')
+        # self.iconbitmap('assets/favicon.ico')
         self.title('License')
         self.text_area = scrolledtext.ScrolledText(self, wrap=tk.CHAR, width=78, height=15)
         self.text_area.grid(column=0, row=0, sticky=(tk.W, tk.E), pady=15, padx=15)
@@ -41,9 +42,9 @@ class AboutWindow(tk.Toplevel):
         y = int(sh + (wh / 2))
         self.geometry(f'{ww}x{wh}+{x}+{y}')
         self.resizable(tk.FALSE, tk.FALSE)
-        self.iconbitmap('assets/favicon.ico')
+        # self.iconbitmap('assets/favicon.ico')
         self.title('About this application')
-        self.about_msg = ttk.Label(self, text='YouTube-Downloader v1.0.0')
+        self.about_msg = ttk.Label(self, text=f'YouTube-Downloader {__version__}')
         self.about_msg.grid(column=0, row=0, columnspan=2, pady=5)
         self.s = ttk.Separator(self, orient=tk.HORIZONTAL)
         self.s.grid(column=0, row=1, columnspan=4, sticky=(tk.E, tk.W), pady=5, padx=15)
