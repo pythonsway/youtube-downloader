@@ -3,7 +3,7 @@ import re
 import time
 from pathlib import Path
 
-from pytube import Playlist, YouTube
+from pytube import YouTube
 
 from utils.file_converter import to_mp3
 

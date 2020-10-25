@@ -1,14 +1,15 @@
-from functools import partial
+# from functools import partial
 from pathlib import Path
 from importlib import resources
 from threading import Event, Thread
 import tkinter as tk
-from tkinter import filedialog, scrolledtext, ttk
+from tkinter import filedialog, ttk
 
 import requests
 from PIL import Image, ImageTk
 
 from .about_window import AboutWindow
+from utils.custom_paths import resource_path
 from utils.custom_threads import KThread
 from utils.youtube_downloader import YouTubeDownloader
 
@@ -46,8 +47,10 @@ class MainApp(ttk.Frame):
     def customize_window(self):
         self.master.resizable(tk.FALSE, tk.FALSE)
         # self.master.iconbitmap('assets/favicon.ico')
-        with resources.path('assets', 'icon.png') as icon_path:
-            self._icon = tk.PhotoImage(file=icon_path)
+        # with resources.path('assets', 'icon.png') as icon_path:
+        #     self._icon = tk.PhotoImage(file=icon_path)
+        icon_path = resource_path('assets', 'icon.png')
+        self._icon = tk.PhotoImage(file=icon_path)
         self.master.iconphoto(True, self._icon)
         self.master.title('YouTube Downloader')
         self.master.columnconfigure(0, weight=1)
@@ -104,8 +107,8 @@ class MainApp(ttk.Frame):
 
             self.check_button['state'] = 'focus'
             self.status_text.set('URL checked.')
-        except:
-            self.status_text.set('Something went wrong.')
+        except Exception as err:
+            self.status_text.set(f'Something went wrong with {err.__doc__}.')
 
     def select_dir(self):
         self.dirname = filedialog.askdirectory(title='Select destination folder', initialdir=self.output_dir.get())
@@ -116,7 +119,7 @@ class MainApp(ttk.Frame):
     def paste_url(self):
         try:
             self.yt_url.set(str(self.master.clipboard_get()).strip())
-        except:
+        except tk.TclError:
             pass
 
         #       stream,    chunk, file_handle, bytes_remaining

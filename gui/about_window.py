@@ -1,14 +1,19 @@
 import tkinter as tk
+from importlib import resources
 from tkinter import scrolledtext, ttk
 
 from . import __version__
+from utils.custom_paths import resource_path
+
 
 class LicenseWindow(tk.Toplevel):
     def __init__(self, master):
         tk.Toplevel.__init__(self, master)
         self.master = master
 
-        with open('LICENSE', 'r') as f:
+        # self.license_txt = resources.read_text('assets', 'license.txt')
+        license_path = resource_path('assets', 'license.txt')
+        with open(license_path, 'r') as f:
             self.license_txt = f.read()
         sw = self.master.winfo_rootx()
         sh = self.master.winfo_rooty()
@@ -20,7 +25,7 @@ class LicenseWindow(tk.Toplevel):
         self.resizable(tk.FALSE, tk.FALSE)
         # self.iconbitmap('assets/favicon.ico')
         self.title('License')
-        self.text_area = scrolledtext.ScrolledText(self, wrap=tk.CHAR, width=78, height=15)
+        self.text_area = scrolledtext.ScrolledText(self, wrap=tk.WORD, width=78, height=15)
         self.text_area.grid(column=0, row=0, sticky=(tk.W, tk.E), pady=15, padx=15)
         self.text_area.insert(tk.INSERT, self.license_txt)
         self.text_area['state'] = 'disabled'
@@ -44,7 +49,7 @@ class AboutWindow(tk.Toplevel):
         self.resizable(tk.FALSE, tk.FALSE)
         # self.iconbitmap('assets/favicon.ico')
         self.title('About this application')
-        self.about_msg = ttk.Label(self, text=f'YouTube-Downloader {__version__}')
+        self.about_msg = ttk.Label(self, text=f'YouTube Downloader {__version__}')
         self.about_msg.grid(column=0, row=0, columnspan=2, pady=5)
         self.s = ttk.Separator(self, orient=tk.HORIZONTAL)
         self.s.grid(column=0, row=1, columnspan=4, sticky=(tk.E, tk.W), pady=5, padx=15)
@@ -52,7 +57,9 @@ class AboutWindow(tk.Toplevel):
         self.about_descr.grid(column=0, row=2, columnspan=2, sticky=(tk.W, tk.E), pady=5, padx=15)
         self.license_button = ttk.Button(self, text='License', command=lambda: LicenseWindow(master))
         self.license_button.grid(column=0, row=3, pady=5, padx=15)
-        with open('disclaimer.txt', 'r') as f:
+        # self.disclaimer_txt = resources.read_text('assets', 'disclaimer.txt')
+        disclaimer_path = resource_path('assets', 'disclaimer.txt')
+        with open(disclaimer_path, 'r') as f:
             self.disclaimer_txt = f.read()
         self.about_lf = ttk.Labelframe(self, text='Disclaimer')
         self.about_lf.grid(column=0, row=4, sticky=(tk.W, tk.E), pady=5, padx=15)

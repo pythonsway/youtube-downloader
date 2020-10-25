@@ -3,8 +3,9 @@ from pathlib import Path
 # import moviepy.editor
 # to prevent error in 'pyinstaller': module 'moviepy.audio.fx.all' has no attribute 'audio_fadein'
 from moviepy.audio.io.AudioFileClip import AudioFileClip
-from moviepy.audio.fx.audio_fadein import audio_fadein
+# from moviepy.audio.fx.audio_fadein import audio_fadein
 # from moviepy.audio.AudioClip import write_audiofile
+
 
 def to_mp3(input_file):
     # with moviepy.editor.AudioFileClip(input_file) as clip:

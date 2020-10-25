@@ -21,4 +21,5 @@ db.sqlite3
 _unUsed/
 
 temp/
-PyInstaller_stuff.txt
+.build
+build.txt

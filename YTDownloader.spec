@@ -3,11 +3,11 @@
 block_cipher = None
 
 
-a = Analysis(['gui.py'],
+a = Analysis(['__main__.py'],
              pathex=['F:\\my_projects\\youtube-downloader'],
              binaries=[],
-             datas=[],
-             hiddenimports=[],
+             datas=[('assets/*', 'assets')],
+             hiddenimports=['pkg_resources.py2_warn', 'pkg_resources.markers'],
              hookspath=[],
              runtime_hooks=[],
              excludes=[],
@@ -23,11 +23,11 @@ exe = EXE(pyz,
           a.zipfiles,
           a.datas,
           [],
-          name='gui',
+          name='YTDownloader',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,
           upx=True,
           upx_exclude=[],
           runtime_tmpdir=None,
-          console=False , icon='assets\\favicon.ico')
+          console=True , version='file_version_info.txt', icon='assets\\favicon.ico')
