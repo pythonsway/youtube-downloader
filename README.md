@@ -4,7 +4,7 @@
 ## Description
 Simple GUI application to download YouTube videos.
 
-Windows stand-alone executable avaible at: [Releases](releases/)
+Windows stand-alone executable avaible at: [Releases](https://github.com/pythonsway/youtube-downloader/releases/latest/)
 
 
 Build with:
