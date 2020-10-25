@@ -21,5 +21,6 @@ db.sqlite3
 _unUsed/
 
 temp/
+.dist
 .build
 build.txt
