@@ -125,7 +125,7 @@ class MainApp(ttk.Frame):
         #       stream,    chunk, file_handle, bytes_remaining
     def show_progress_bar(self, stream, chunk, bytes_remaining):
         mbytes_downloaded = float(f'{(stream.filesize - bytes_remaining) / 1024**2:.2f}')
-        self.yt_current_size.set(mbytes_downloaded)
+        self.yt_current_size.set(mbytes_downloaded) # chunk=9MB
         self.p_label['text'] = f'{self.yt_current_size.get()} / {self.yt_file_size.get()} MB'
 
     def on_complete(self, stream, file_handle):
