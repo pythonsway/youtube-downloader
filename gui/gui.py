@@ -24,6 +24,7 @@ class MainApp(ttk.Frame):
         self.download_option = tk.IntVar()
         self.output_dir = tk.StringVar()
         self.output_file = tk.StringVar()
+        self.output_extension = tk.StringVar()
         self.itag = tk.IntVar()
         self.status_text = tk.StringVar()
         self.download_running = tk.BooleanVar()
@@ -79,6 +80,7 @@ class MainApp(ttk.Frame):
         idx = e.widget.selection()[0]
         # streams_tree.item(idx)['text']
         self.itag.set(int(self.streams_tree.set(idx, column='itag')))
+        self.output_extension.set(self.streams_tree.set(idx, column='type'))
         self.yt_file_size.set(float(self.streams_tree.set(idx, column='size')))
         self.status_text.set(f'itag selected: {self.itag.get()}.')
         self.download_button['state'] = 'focus'
@@ -125,7 +127,7 @@ class MainApp(ttk.Frame):
         #       stream,    chunk, file_handle, bytes_remaining
     def show_progress_bar(self, stream, chunk, bytes_remaining):
         mbytes_downloaded = float(f'{(stream.filesize - bytes_remaining) / 1024**2:.2f}')
-        self.yt_current_size.set(mbytes_downloaded) # chunk=9MB
+        self.yt_current_size.set(mbytes_downloaded)
         self.p_label['text'] = f'{self.yt_current_size.get()} / {self.yt_file_size.get()} MB'
 
     def on_complete(self, stream, file_handle):
@@ -152,7 +154,8 @@ class MainApp(ttk.Frame):
         # self.yt.download(self.itag.get(), self.output_dir.get(), self.output_file.get())
         self.download_thread = KThread(target=self.yt.download, daemon=True, args=(self.itag.get(),
                                                                                    self.output_dir.get(),
-                                                                                   self.output_file.get(),))
+                                                                                   self.output_file.get(),
+                                                                                   self.output_extension.get(),))
         self.download_thread.start()
 
     def cancel(self):

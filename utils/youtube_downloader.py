@@ -3,7 +3,8 @@ import re
 import time
 from pathlib import Path
 
-from pytube import YouTube
+from pytube import request, YouTube
+from pytube.helpers import safe_filename
 
 from utils.file_converter import to_mp3
 
@@ -48,8 +49,11 @@ class YouTubeDownloader:
         self.streams_list.clear()
         self.list_streams()
 
-    def download(self, itag, path, name):
-        self.downloaded_clip = self.yt.streams.get_by_itag(itag).download(output_path=path, filename=name,
+    def download(self, itag, path, name, ext):
+        # 1MB chunk size (default 9MB)
+        request.default_range_size = 1048576
+        safe_name = f'{safe_filename(name)}.{ext}'
+        self.downloaded_clip = self.yt.streams.get_by_itag(itag).download(output_path=path, filename=safe_name,
                                                                           skip_existing=False)
 
     def file_complete(self):
