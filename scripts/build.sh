@@ -8,8 +8,9 @@ pyinstaller \
 --icon="assets/favicon.ico" \
 --add-data="assets/*;assets" \
 --version-file=file_version_info.txt \
-__main__.py \
 --upx-dir="D:\upx" \
+--paths "F:\my_projects\youtube-downloader" \
+__main__.py \
 2> build.txt
 
 # --windowed \
