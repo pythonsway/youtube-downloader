@@ -3,8 +3,8 @@ import re
 import time
 from pathlib import Path
 
-from pytube import request, YouTube
-from pytube.helpers import safe_filename
+from pytubefix import request, YouTube
+from pytubefix.helpers import safe_filename
 
 from utils.file_converter import to_mp3
 
